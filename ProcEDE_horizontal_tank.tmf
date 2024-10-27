@@ -1,0 +1,475 @@
+#ESI!
+4.0
+ProcEDE_horizontal_tank
+0
+
+DRAOU MOHICNE
+ProcEDE Laboratory
+1
+
+2
+16
+October 27, 2024
+
+October 27, 2024
+1
+
+noowner
+__
+__
+__
+1
+This model has been developped in the frame of a PhD thesis that focuses on the exploitation of excess photovoltaic energy in the residential sector. This model has been used to store the surplus energy via a power Diverter. The model has been experimentally validated and the details can be found here: https://doi.org/10.1016/j.applthermaleng.2024.122500
+0
+0
+0
+0
+0
+0
+__
+__
+__
+1
+
+0
+__
+__
+__
+__
+0
+0
+__
+
+__
+__
+__
+19
+Tank Volume
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+m^3
+Volume
+Tank Length
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+m
+Length
+Tank Diameter
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+m
+Length
+Insulation Thickness
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+m
+Length
+Insulation Conductivity
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+W/m.K
+Thermal Conductivity
+Element Power
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+W
+Power
+Thermostat Setpoint
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Thermostat Deadband
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+deltaC
+Temp. Difference
+Element Height
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+m
+Length
+Fluid Specific Heat
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+J/kg.K
+Specific Heat
+Fluid Density
+SN
+1
+
+simple
+real
+3
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kg/m^3
+Density
+Inlet Temperature
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Inlet Flow Rate
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+kg/hr
+Flow Rate
+Ambient Temperature
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Outlet Temperature
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Tank Temperature
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+Element Power Output
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+W
+Power
+Heat Loss
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+W
+Power
+Tank Temperature
+SN
+1
+
+simple
+real
+5
++
+-Inf
++Inf
+[ ; ]
+0
+0
+C
+Temperature
+0
+0
+0
+0
+0
+
+*** trnModel specific properties ***
+9999
+1996
+
+9
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+
+
+
+0
+9
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+
+
+
+0
+
+
+0
+4
+tank
+electrical
+hot water
+Storage Tank
+0
+3
+0
+
+
+1
+100
+0
+3
+0
+
+
+1
+100
+0
+9
+0
+
+
+1
+100
+0
+0
+0
+
+
+1
+100
